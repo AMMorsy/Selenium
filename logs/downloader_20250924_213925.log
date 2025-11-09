@@ -1,0 +1,16 @@
+2025-09-24 21:39:25,750 INFO ====== WebDriver manager ======
+2025-09-24 21:39:27,159 INFO Get LATEST chromedriver version for google-chrome
+2025-09-24 21:39:27,620 INFO Get LATEST chromedriver version for google-chrome
+2025-09-24 21:39:28,298 INFO Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-24 21:39:51,711 INFO Opened login page
+2025-09-24 21:39:52,646 INFO Clicked consent button
+2025-09-24 21:39:55,630 INFO Clicked login button
+2025-09-24 21:39:58,696 INFO Login successful - reached /dashbord/meeting
+2025-09-24 21:40:02,722 INFO Checking recordings page: https://onmeeting.co/dashbord/recordings/18016307035
+2025-09-24 21:40:20,681 INFO Found 5 Play buttons on this page.
+2025-09-24 21:40:52,361 INFO Clicked download for recording key: 68d4132eb347825d3c98d94b
+2025-09-24 21:42:30,378 INFO Saved as: Recording_2025-09-24_21-42-30.mp4
+2025-09-24 21:42:48,163 WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/871418d19b1027ce29174955b13cf4ec
+2025-09-24 21:42:50,192 WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E85BE57D90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/871418d19b1027ce29174955b13cf4ec
+2025-09-24 21:42:52,207 WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E85BF80CD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/871418d19b1027ce29174955b13cf4ec
+2025-09-24 21:42:54,212 INFO Finished run

@@ -1,0 +1,36 @@
+2025-09-24 21:18:49,758 INFO === webdriver_diag start ===
+2025-09-24 21:18:49,759 INFO Chrome path: C:\Program Files\Google\Chrome\Application\chrome.exe
+2025-09-24 21:18:49,765 INFO Selenium version: 4.35.0
+2025-09-24 21:18:50,660 INFO Installing chromedriver via webdriver_manager …
+2025-09-24 21:18:50,661 INFO ====== WebDriver manager ======
+2025-09-24 21:18:52,132 INFO Get LATEST chromedriver version for google-chrome
+2025-09-24 21:18:52,137 DEBUG Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2025-09-24 21:18:52,607 DEBUG https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 13279
+2025-09-24 21:18:52,629 INFO Get LATEST chromedriver version for google-chrome
+2025-09-24 21:18:52,632 DEBUG Starting new HTTPS connection (1): googlechromelabs.github.io:443
+2025-09-24 21:18:53,173 DEBUG https://googlechromelabs.github.io:443 "GET /chrome-for-testing/latest-patch-versions-per-build.json HTTP/1.1" 200 13279
+2025-09-24 21:18:53,211 INFO Driver [C:\Users\admin\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-24 21:18:53,212 INFO Driver path: C:\Users\admin\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe
+2025-09-24 21:18:53,214 DEBUG Skipping Selenium Manager; path to chrome driver specified in Service class: C:\Users\admin\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe
+2025-09-24 21:18:53,231 DEBUG Started executable: `C:\Users\admin\.wdm\drivers\chromedriver\win64\140.0.7339.207\chromedriver-win32/chromedriver.exe` in a child process with pid: 11056 using 0 to output -3
+2025-09-24 21:18:53,733 DEBUG POST http://localhost:56953/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', 'args': ['--headless=new', '--no-sandbox', '--disable-gpu', '--disable-dev-shm-usage']}}}}
+2025-09-24 21:18:53,734 DEBUG Starting new HTTP connection (1): localhost:56953
+2025-09-24 21:18:54,582 DEBUG http://localhost:56953 "POST /session HTTP/1.1" 200 0
+2025-09-24 21:18:54,582 DEBUG Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"140.0.7339.186","chrome":{"chromedriverVersion":"140.0.7339.207 (17230b545fd18b35aad49122e5af97a463bc7a9c-refs/branch-heads/7339@{#2364})","userDataDir":"C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir11056_1043325790"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:56956"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"538cdddf2c9e09f63f72a0ff41fc2090"}} | headers=HTTPHeaderDict({'Content-Length': '884', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-09-24 21:18:54,587 DEBUG Finished Request
+2025-09-24 21:18:54,589 INFO Driver session started. Capabilities: {'acceptInsecureCerts': False, 'browserName': 'chrome', 'browserVersion': '140.0.7339.186', 'chrome': {'chromedriverVersion': '140.0.7339.207 (17230b545fd18b35aad49122e5af97a463bc7a9c-refs/branch-heads/7339@{#2364})', 'userDataDir': 'C:\\Users\\admin\\AppData\\Local\\Temp\\scoped_dir11056_1043325790'}, 'fedcm:accounts': True, 'goog:chromeOptions': {'debuggerAddress': 'localhost:56956'}, 'networkConnectionEnabled': False, 'pageLoadStrategy': 'normal', 'platformName': 'windows', 'proxy': {}, 'setWindowRect': True, 'strictFileInteractability': False, 'timeouts': {'implicit': 0, 'pageLoad': 300000, 'script': 30000}, 'unhandledPromptBehavior': 'dismiss and notify', 'webauthn:extension:credBlob': True, 'webauthn:extension:largeBlob': True, 'webauthn:extension:minPinLength': True, 'webauthn:extension:prf': True, 'webauthn:virtualAuthenticators': True}
+2025-09-24 21:18:54,591 DEBUG POST http://localhost:56953/session/538cdddf2c9e09f63f72a0ff41fc2090/url {'url': 'https://www.example.com/'}
+2025-09-24 21:18:55,013 DEBUG http://localhost:56953 "POST /session/538cdddf2c9e09f63f72a0ff41fc2090/url HTTP/1.1" 200 0
+2025-09-24 21:18:55,013 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-09-24 21:18:55,015 DEBUG Finished Request
+2025-09-24 21:18:55,016 DEBUG GET http://localhost:56953/session/538cdddf2c9e09f63f72a0ff41fc2090/title {}
+2025-09-24 21:18:55,024 DEBUG http://localhost:56953 "GET /session/538cdddf2c9e09f63f72a0ff41fc2090/title HTTP/1.1" 200 0
+2025-09-24 21:18:55,026 DEBUG Remote response: status=200 | data={"value":"Example Domain"} | headers=HTTPHeaderDict({'Content-Length': '26', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-09-24 21:18:55,027 DEBUG Finished Request
+2025-09-24 21:18:55,027 INFO Page title: Example Domain
+2025-09-24 21:18:55,028 INFO SUCCESS: WebDriver is working.
+2025-09-24 21:18:55,029 DEBUG DELETE http://localhost:56953/session/538cdddf2c9e09f63f72a0ff41fc2090 {}
+2025-09-24 21:18:55,096 DEBUG http://localhost:56953 "DELETE /session/538cdddf2c9e09f63f72a0ff41fc2090 HTTP/1.1" 200 0
+2025-09-24 21:18:55,099 DEBUG Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+2025-09-24 21:18:55,100 DEBUG Finished Request
+2025-09-24 21:18:57,154 INFO === webdriver_diag end ===
