@@ -19,23 +19,14 @@ from bs4 import BeautifulSoup
 # --------------------
 # CONFIG
 # --------------------
-USERNAME = "it@proleadersco.com"
-PASSWORD = "P@ss2022"
-LOGIN_URL = "https://onmeeting.co/login"
+USERNAME = ""
+PASSWORD = ""
+LOGIN_URL = ""
 
 VIDEO_PAGES = [
-    "https://onmeeting.co/dashbord/recordings/18016307035",
-    "https://onmeeting.co/dashbord/recordings/26290648768",
-    "https://onmeeting.co/dashbord/recordings/28449434290",
-    "https://onmeeting.co/dashbord/recordings/34936951505",
-    "https://onmeeting.co/dashbord/recordings/45260422857",
-    "https://onmeeting.co/dashbord/recordings/80419386778",
-    "https://onmeeting.co/dashbord/recordings/86064245273",
-    "https://onmeeting.co/dashbord/recordings/92616174648",
-    "https://onmeeting.co/dashbord/recordings/96567313216",
-    "https://onmeeting.co/dashbord/recordings/16421949030",
-    "https://onmeeting.co/dashbord/recordings/39295435586",
-]
+    "",
+    "",
+    ]
 
 # Root downloads dir
 DOWNLOAD_ROOT = os.path.join(os.getcwd(), "downloads")
